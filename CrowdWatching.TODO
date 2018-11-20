@@ -1,0 +1,68 @@
+Description:
+    Wouldn't it be fun to be able to watch your favorite anime's with other people? What about trying out a new anime with other hesitant people? Watching an anime is a very
+    solo experiences when it doesn't have to be. Especially with the speed of the internet and computers these days. Almost everything is more fun with other people!
+
+    -Every video will start a live chat room that other people can join if settings allow. 
+    -Chat will stay live at the video time but any one can rewind if they missed something.
+        -Chat can be hidden if spoilers want to be avoided.
+    -People can start votes (if chat room is empty then the vote succeeds instantly)
+        -Rewind live time for everyone
+        -Pause video for 5 minutes (has cooldown)
+        -Rewatch because why not?
+
+Roadblocks & Solutions:
+    Overall Cost: YouTube is a good example of why video hosting and streaming is almost not worth it. I don't know if it is actually true but apparently Google looses money
+    with YouTube even though its one of the biggest sites in the world. This is cocerning for someone like me who is still paying off student debt :|
+    
+    Solution: I wont say there is a solid solution but AWS is fairly cheep and can accomplish alot. If I were to implement a service model that required users to pay monthly
+    then I would probably be able to make money and afford hosting costs.
+
+    Service business model... Right now you can watch any anime you want for free with one Google search. Making this service cost money would immediatly downsize 
+    interest.
+    
+    Solution: Make the service worth while? I'm not saying this would immediatly solve the problem but if the service makes the customer think that they didn't waste their money
+    then eventually a decent user base would form. I know it's not rocket science but sometimes obvious is only obvious once said outloud or written down.
+
+    Liscensing & Fees: The problem with anime sites is that you need permission to host any episodes and you have to give a percentage of your profits to them. So not only are 
+    loosing a fair percentage of our monthly income but there is also hosting, AWS, and miscellanious fees that have to be taken into account. This means that this site would be
+    very expensive to start. It is no suprise that there are only a handful of sites that exist.
+    
+    Solution: Starting small would most likely be the best option. Instead of trying to launch the site with every anime in existance, I could start with a few that I could get
+    permissions for. To be honest, sites like CrunchyRoll still struggle with anime selections even though they are so popular.
+
+    Anime Selection: As I just mentioned it will be difficult to have a comprehensive list of animes which is a sever downside to free sites that just host whatever they want.
+    Solution: Similar to above answer - start small. Start with a few animes and slowly get new ones. Try to focus on trending animes first to gather a user base and then 
+    retroactively go back and get all the other ones. 
+
+Features:
+    This sites only gimmick will not be live watching though it is the base idea.
+    I want the site to be feature complete that, in the end, leaves no one wanting. This list is all the ideas that other people
+    or myself have thought of.
+
+    Live Watching: The ability to simultaneously watch the same anime episode with other people at anytime.
+        -Browse live videos (show's time)
+        -See most popular/trending episodes
+        -Start a new chat room (useful for watching episodes from beginning to end)
+        -Binge Mode. Special mode designed for watching 5+ episodes in a row.
+            -Automatically skips intro and recap instead of having to vote for it.
+            -Larger room capacity.
+
+    Skip Intros and Recap: People can mark (will be verified) the recap and OP's. Once verified, they can be skipped either through voting in the chatrooms or by pressing a 
+    button in offline mode.
+
+    Friendly Ads: As an experienced anime watcher, I have no desire to shove ads into the middle of the epsiodes. That is why ads (if any) will only be at the begnning or end
+    of episodes. I also dislike banner ads so I may look into not having those. Ultimatly this would be a paid service so ads seem uneccesary. 
+
+    Tracker: AKIN to MyAnimeList. Tracks what you have watched, how many hours you watched, etc.. 
+
+    Comprehensive Search: Advanced video search that should help anyone find something to watch. This is more of an expected feature than a new feature.
+
+    Forum: Currently there are blogs, discussions, and forums spread out all over the internet. It would be nice if there was one universal location where everyone could post
+    theories, questions, and any anime topic. Also because watching anime is nerdy, the forum could promote other nerdy topics like dungeons and dragons, humble bundle, etc.
+    Ultimatley, there is nothing particularly unique about this forum but it would be nice to have a high quality one. Every episode could link to its own forum topic.
+
+    High Quality Player: Nothing is more annoying than a low quality video player. Simply put I want a nice one.
+
+    High Quality Video: No tiered service that limits the quality of the video. Any tier (if there even are tiers) will have access to 1080p. 
+
+    Quick Releases: No waiting hours to days for new episodes. Once something is released it is available. Idealy it would be simulcasted
