@@ -1,0 +1,24 @@
+Custom TODO App:
+    I want to make an application specifically designed for TODO lists. There are decent solutions out there but they all leave something to be desired.
+    I could either make an application from scratch like Todoist or I could create a plugin for VSCode. The problem is that all tasks get archived into one group and it also tends to remove nested formatting which makes the completed tasks harder to read. The other problem is that there really isnt a way to filter since this is just a dump of text that has syntax highlighting and macros that are keybound. Nothing spectacular is actually happening.
+    I could also make a console interface that interacts with a todo file. The interface would would allow all of the below features without making it too complex. The problem is that I would have a hard time accessing it from anywhere whereas with a web application I could keep track of my todo's anywhere with internet access. This is also true with a VSCode plugin where I can use OneDrive to access my TODO's. 
+    Any solution that makes it easy to access and edit my TODO's from any computer is acceptable. 
+    Web apps are less preffered as it would require having to alt+tab to a browser and then going to the correct tab. With a program or VSCode plugin I can always have my TODO list open and accessable with one alt+tab. 
+    The problem with a full-blown application is that if feels like overkill. A console application could be a nice solution but it makes it feel more hacking and unwieldy. The bonus is that an experienced user could do a lot in little amounts of time if I go this route. I could also make it in something universal (already installed or easy to install) like Java, Powershell, bash, or Python.
+    Python has good libraries for console menu's however I would probably want to go more of a command route rather than a menu route. Menu's are nice but limit productivity. If a user knows the command they want to use then there shouldn't be anything stopping them from entering a command. Perhaps I can implement a hybrid system whereby I allow both commands and menu navigation. 
+    One thing I need to think about is that I don't want editing a task or adding a task to be difficult. What I could do is use the console to search and then write the results to a temp file and then show that file. To this point I could also come up with syntax that allows someone to free form type in a text document and then the interface would consolidate it for the user. This means that task editing and creating is done in familiar envrironments and the console interface enables a filter. This means that I could probably create a VSCode plugin since there is a command execution shortcut and easily accessable terminal. 
+    I think this means that I will start developing a VSCode compatable console application. I could partially replicate what the Notebook add-in does with requiring its own environment to work with python driving everything. 
+
+    Features:
+        - Quickly add new tasks
+        - Manage status
+            - In Progress
+            - Completed
+            - Cancelled
+            - Delayed
+        - Add detailed comments/descriptions
+        - Search and filter tasks
+        - Categorize tasks
+        - Add custom tags for filtering
+        - Add references (hyperlinks)
+        - Reorganize tasks easily

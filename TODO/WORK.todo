@@ -1,0 +1,108 @@
+Project Work:
+    ☐ Look into user logon check
+      Make sure it's not locking and unlocking users. If it is, we will need to get authorizations.
+      ✔ Wait for meeting with James about locking/unlocking PERNRs @done(18-11-28 10:37)
+      It seems password is not required, however, a code crawl will need to be performed with accurate test data in order to determine if password is required for end date validation/removal. I will have a meeting with Eshwari and Connor regarding this..
+      Meeting has been scheduled - 9:00am, 11/28/2018
+      A code crawl still needs to be perfomed so I will need to schedule some time with Connor and Eshwari this week or next week. 
+      ☐ 
+
+    ☐ Assist with getting first batch of transports moved @high
+      Due to the upcoming freeze the team is changing the strategy. Now we are planning to move all changes to quality in one transport in order to increase productivity during the freeze.
+      ✔ Release and properly name transports in CHR and CG1 @done(18-11-28 10:41)
+      ✔ Assign transports in CHR to James McGlaughlin @done(18-11-28 10:40)
+      ✔ Assign transports in CG1 to Darcy @done(18-11-28 10:42)
+
+      ✔ Make it so that it is not possible to pass sapid in any service @done(18-11-28 10:39)
+        I have performed one check for any situations where this happens and I did not see any.
+        ✔ Meet with Connor @done(18-11-28 10:40)
+          I want to be sure so I will schedule a meeting with Connor so that I have a second pair of eyes.
+          I found 3 service that use id's but I want to run them by Connor before changing them.
+            Making the changes will be quick but the Java team will need to adjust their code accordigly.
+            I scheduled a meeting so this should be taken care of on 11/28/2018
+            Questions:
+                Do I need to retain the ability to pass PERNR if userid is being passed by the java team?
+                This is still being questioned and we wont have a definitive answer until later during the freeze.
+        ✔ Have Narender double check transport readyness@done(18-11-28 10:40)
+            Not sure how much he can do but having a second pair of eyes can only help.
+            He will look into this today 11/28/2018 and hopefully get back to me by the end of the day.
+        ☐ Wait for transports to me moved
+              CHR should be moved this week and CG1 should be moved next Wednesday
+              ✔ CHR @done(18-12-03 07:00)
+              ☐ CG1
+                Waiting on CRB that takes place on Wednesday. This has been moved to QG1 already I believe.
+
+    ☐ Create Newly Mentioned RFC's for HR Connect
+      ☐ Z_HDXDTA_GET_HAY_ALGO_GRADE
+      ☐ Z_PGB_GET_FINANCE_SBU_HR_UNITS
+      ☐ Z_PGB2_SEARCH_WORK_LOC
+      ☐ Z_HDXDTA_SEARCH_HELP_WRAPPER
+      ☐ Z_HDXDTA_GET_MOLGA_CNTRY_CODE
+      ☐ Z_PGB_GET_COST_CENTERS
+      ☐ Z_HDXH_EEO_AAP_DESCRIPTION
+      ☐ Z_PGB_JOBS_SEARCH
+
+    ☐ Create API's for Newly Mentioned RFC's for HR Connect
+      ☐ Z_HDXDTA_GET_HAY_ALGO_GRADE
+      ☐ Z_PGB_GET_FINANCE_SBU_HR_UNITS
+      ☐ Z_PGB2_SEARCH_WORK_LOC
+      ☐ Z_HDXDTA_SEARCH_HELP_WRAPPER
+      ☐ Z_HDXDTA_GET_MOLGA_CNTRY_CODE
+      ☐ Z_PGB_GET_COST_CENTERS
+      ☐ Z_HDXH_EEO_AAP_DESCRIPTION
+      ☐ Z_PGB_JOBS_SEARCH
+      
+    ☐ Testing needs to be done in both Quality and Production environments. @ongoing @medium
+        This isn't directly done by me but I am involved in the on going process of testing in over environments.
+    
+    ☐ Update documentation @ongoing @low
+      ☐ Errors in Documentation (if any)
+      Found services that were marked as complete but were not actually complete.
+        There are approx. 6 API's in this state that need fixed/created.
+        Nevermind, these are related to an app that is going to be decommissioned. I believe all API's have been created at this point.
+      11/27/2018 - Switched to low priority as deleting unused code is more important atm. 
+  
+    ☐ Create documentation on how to create and maintain created services @low
+    This is very low priority and will not be addressed until the week of shutdown or in January.
+Ticket Work:
+    ☐ SCTASK0366978 @started(18-11-27 11:10)
+      BA is Sue Carpenter 
+      See ticket notes in OneNote
+      Freeze is coming up on Friday, 11/30/2018
+      ✔ Find and fix issue @done(18-11-27 14:10)
+      The issue was that a type within a structure that was being passed in the related transfer statement was not converting to 
+      type char and thus causing the dump. I was able to fix this by going to the type definition and changing it to type c.
+      ☐ Wait for testing results
+    
+Archive:
+  ✔ Delete decommissioned or otherwise unwanted services from transports. @started(18-11-27 10:33) @done(18-11-27 14:05) @lasted(3h32m40s) @project(Project Work)
+  ✔ Pension Calulation @started(18-11-27 10:32) @done(18-11-27 13:05) @lasted(2h33m41s) @project(Project Work)
+  ✔ Z_PNB_ESTIMATES_GETDETAIL @done(18-11-27 14:05) @project(Project Work)
+  ✔ Z_PNB_LONGTEXT_GETDETAIL @done(18-11-27 14:05) @project(Project Work)
+  ✔ Z_PNB_PENCALC_IT_GETDETAIL @done(18-11-27 14:05) @project(Project Work)
+  ✔ Z_PNB_ADMIN_QUEUE @done(18-11-27 14:05) @project(Project Work)
+  ✔ Z_PNB_EMPLOYEE_GETDETAIL @done(18-11-27 14:05) @project(Project Work)
+  ✔ Z_PNB_CULTURE_RESP_GETDETAIL @done(18-11-27 14:05) @project(Project Work)
+  ✔ Z_PNB_PACKETS_GETDETAIL @done(18-11-27 14:06) @project(Project Work)
+  ✔ Z_PNB_CULTURE_GETDETAIL @done(18-11-27 14:06) @project(Project Work)
+  ✔ Z_PNB_PENCALC @done(18-11-27 14:05) @project(Project Work)
+  ✔ ESS - CareerDevelopmentWEB (Job Search Only.) @done(18-11-27 10:31) @project(Project Work)
+  ✔ Z_PGB_EMPPREVIER_GETDETALLIST @done(18-11-27 10:30) @project(Project Work)
+  ✔ Z_PGB_EMPPREVIER_DELETE @done(18-11-27 10:30) @project(Project Work)
+  ✔ Z_PGB_EMPPREVIER_CREATE @done(18-11-27 10:30) @project(Project Work)
+  ✔ Z_PGB_EMPPREVIER_CHANGE @done(18-11-27 10:30) @project(Project Work)
+  ✔ Z_PGB_CD_ACTIONPLAN_GETDETAIL @done(18-11-27 10:30) @project(Project Work)
+  ✔ Z_PGB_CD_ACTIONPLAN_CREATE @done(18-11-27 10:30) @project(Project Work)
+  ✔ Research FM @done(18-11-27 09:47)
+  ✔ Send email @done(18-11-27 09:47)
+  ✔ Wait for reply from Kote @done(18-11-27 09:47)
+  ✔ I missed some things. I need to hold meeting with Eshwari to go over the code. The functionality that unlocks users needs to work still! @done(18-11-27 09:47)
+  ✘ Schedule meeting @cancelled(18-11-27 09:47)
+  ✘ Note findings @cancelled(18-11-27 09:47)
+  ✔ Lokesh looked into user logon check and found that it needs to be called but the username and password is not passed. P_Application is being passed though. Edit service to not allow username and password. @done(18-11-27 09:47)
+  ✔ I made the change and also created a new transport since the old one got deleted. @done(18-11-27 09:47)
+  ✔ Create Z_PGB_SSAUTHLVL_AUTH_CHECK Service @done(18-11-27 09:48)
+  ✔ Meeting later today to go over this (11/26/2018) @done(18-11-27 09:48)
+  ✘ I will need to manually copy and delete objects to new transports. Objects can be deleted even if they are locked. @cancelled(18-11-27 09:48)
+  ✔ Get vs Post @done(18-11-27 10:04)
+  ✔ Need to set up meeting with Eshwari @done(18-11-27 10:04) @project(Tickets)

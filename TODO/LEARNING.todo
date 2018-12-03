@@ -1,0 +1,128 @@
+************************************************************* 
+This TODO file is used to keep track of learning projects 
+notes and their corresponding tasks. Every project will have
+an introduction that explains the context of the learning project,
+a "Why" section that explains why I specifically want to learn in 
+this way, and a plan of attack section that explains my plan for
+completing this learning project.
+
+Custom Tags
+  -@stream used for tasks to be peformed on stream
+  -@large used for tasks/projects that will take longer
+   than 1 week to complete.
+  -@medium used for tass/projects that can be completed
+   in about 1 week.
+  -@small used for tasks/projects that can be completed
+   in one or two days.
+  -@scratch used for tasks/projects where I know very 
+   little or nothing at all.
+  -@additional used for tasks/projects where I already
+   know a fair amount about it but I am learning some
+   specific additional knowledge.
+*************************************************************
+
+Learning Projects:
+    ☐ Python Boolean Command Line @medium @additional @stream 
+        Introduction    
+            In my TODO app it has become obvious that I need to create some sort of boolean expression language in order to achieve the level of search functionality that I want. It was suggested on stream that I should implement a boolean expression language so that I can do something like date < some date and (name contains "" or description contains ""). Currently I am manually implementing logic for "and" and "or" but I have no logic for parenthetical evaluation.
+        Why
+            -Learning more about boolean expression is useful
+            -Boolean language would create the exact search functionality that I need
+        Plan of Attack
+            -Search generic boolean expression language tutorials/docs
+                -Take notes
+            -Create new python project for some test implementation
+            -Implement boolean language in TODO app
+    ☐ Machine Learning @scratch @large (possibly/partially)@stream 
+        Introduction
+            Machine learning is a very popular and advanced topic within computer science. As a hobbyist/professional programming I am very interested in practical and fun uses of machine learning. In order to better understand and work with machine learning, I want to create a custom machine learning app.
+        Why
+            -Relavent in current IT environments
+            -Very interesting and unique functionality
+            -Possibly applicable to future projects
+            -Complex in nature
+        Plan of Attack
+            -Do tons of research and take notes
+                -Do this until I fully understand all the steps of a specific implementation.   
+            -Create python test implementation where I try to get some example working
+            -Create custom implementation where I define a clear goal and I design a working machine learning solution.
+    ☐ Web Service Creator
+        Introduction:
+            -I find myself enjoying web services as a technology and I think it would be cool to create a web app that creates web services. I could manage two different types of implementations (AWS and local).
+                for local I could generate the node.js code or whatever else
+                for AWS I could provide instructions or I could even hook into aws and create the necessary components for them.
+        Why:
+            -would allow me to learn more about web apps and web services
+            -this seems like a viable service that I could sell. 
+            -I'm already interested in these technologies
+        Plan of Attack:
+            ✔ Solidify understanding of web apps and web services @done(18-12-03 11:32)
+            -Find a predictable pattern for web service creation that I can replicate with the web app
+            -Create logic for local web service.
+                I realized that in order to be considered a worth while service I should be able to generate a service in many languages so I will need to go through this process for each language to be implemented.
+                ☐ Python - Flask JSON & XML @scratch 
+                    ☐ Go through the Mega tutorial: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+                    ☐ Make an app that implements all of the security features
+                        ☐ Modulize them so that I can easily generate or not generate them
+            -Create logic for AWS service.
+            -Create Web App @large
+                -Create JSON syntax that allows user's to just upload a JSON file with all of the desired settings.
+                -User registration and login
+                -Feature's locked behind fee's
+                    -Free Features
+                        -Create very basic service with little to no security features.
+                        -No AWS setup included
+                        -Useful for learning and education environments
+                        -Provides a nice segway into paid features
+                    -Feature fees
+                        -AWS Hosting scales with the AWS usage (may just setup service for a fee and then give keys to the user and let them manage it)
+                        -Security features should have a small monthly fee associated with it.
+                -Extensive Service Creation Form
+                    -Service Name
+                    -Language
+                        -Java
+                            ○ Restful
+                                § Limited bandwidth and resources
+                                § Stateless operation
+                                § Caching situations
+                            ○ SOAP
+                                § Asynchronous processing and invocation
+                                § Formal contracts
+                                § Stateful operations
+                        -ASP.Net
+                        -C#
+                        -Python
+                        -Ruby
+                        -PHP
+                        -Node.js
+                    -Routes & Functions
+                        Specify Route
+                        Specify Operation (GET, POST, etc..)
+                        Provide Function Code
+                    -Include example routes & functions?
+                    -Protocol
+                        -SOAP over HTTPS
+                        -SOAP over BEEP
+                    -Security (service wide and route specific)
+                        -Roles and users
+                        -In-depth role definitions
+                        -Hashed passwords
+                    -Local vs. AWS hosted
+                        -One time fee for setup. 
+                        -Requires setting up account in AWS.
+                        -Will have to look into how this will work.
+                            -May require talking to AWS directly.
+                        -One option is to create an account that will house all of the services and then we will manage permissions and charge monthly at slightly upcharged rate from what AWS charges.
+                            -So instead of the user having the keys to the castle, they will only have access to the created services.
+                    -Version control via Git?
+                        -Allow user to specifiy github account
+                        -Upload generated service to git
+                        -Push anychanges to git
+                        -May not be necessary because user can always due this themselves.
+                        -May be more relavent for AWS hosted services
+                            -Since we would potentially manage the service, we could use git to keep backups and provide version control.
+                            -this would allow users to restore previous versions (premium feature). 
+                -Use the above form to manage already created services as well.
+                    -Fields will be populated with already provided information
+                    -Generating will push changes.
+

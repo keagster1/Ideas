@@ -1,0 +1,61 @@
+Mechanics:
+    These are lists of mechancics that need to be implemented into Citreous. None of these mechanics will be related to the story and serve primiarily to give a comprehensive list of technical work to be done. All story related items will be put in a different document.
+
+    Citreous can be split into two main states: Overworld, and Duel. I will seperate the mechanics into these two states. I will also create one more category named "Shared" for the mechanics that touch both states.
+    Overworld:
+        ☐ Top Down Rendering
+            I need to learn and implement the basics of top down rendering in Unity
+        ☐ Player Movement
+            The MC needs to be able to move up, down, left, or right. No diagonal movement is planned in order to simplify movement and collision.
+        ☐ Obstacles/Collision
+            Some objects need to prevent the MC from moving.
+            Houses, trees, rocks, other peopl, are some examples
+        ☐ Interaction
+            The MC will need to be able to interact with other NPC's and obstacles to allow for dialouge, obstacle removal, and shops.
+        ☐ Warp Gates/Loading Levels
+            When the MC steps on or interacts with certain objects like doors, new levels need to be loaded.
+        ☐ Layered Objects & Rendering
+            This may get paired with Top Down Rendering later.
+            In order to give depth to the world some objects should be rendered above and below other objects.
+        ☐ Shops
+            Buy and sell items, monsters, and duel cards.
+        ☐ Map
+            Show the map with details about cities and locations as well as current location. 
+
+    Duel:
+        ☐ Choose Monster to Duel With
+            The MC will have several monsters so it is important to let them choose which one they want to start with.
+        ☐ Load Duel Cards
+            Each monster will have its own set of duel cards and will need to be loaded into an on-screen deck
+        ☐ Discard & Draw 5 cards
+            Every round the player will discard there hand and draw 5 new cards from their draw pile. 
+        ☐ Shuffle Discard Pile
+            Once all cards are used from the draw pile, the discard piile should be reshuffled and made into the draw pile.
+        ☐ Energy Cost
+            Every round the monster will have a max amount of expendable energy. Every duel card has an energy cost.
+            Some cards will be able to boost/reduce this stat
+        ☐ Victory/Defeat
+            Defeating the opponent or being defeated should result in the end of the duel.
+        ☐ Rewards   
+            If victory is achieved then exp, items, and possibly the defeated monster should be added to the MC's inventory.
+        ☐ Duel Card Use Limits
+            Each duel card will have a specific amount of times it can be used before being exhausted. If the card has remaining uses after being discarded, then it can be reshuffled into the draw pile afteer all draw cards are used.
+
+    Shared:
+        ☐ Inventory
+            Store received items and monsters. Have the ability to use, drop, and reorganize items and monsters. 
+            Manage load outs for duels.
+        ☐ Initiate Duel
+            Upon encountering a monster, load the duel map/screen with entrance animations. 
+        ☐ Monster Leveling
+            Each monster will keep track of their level and current experience. Once enough xp is gained, the monster should level up. 
+        ☐ Unlock Duel Cards
+            Every monster will have a set of cards that they can unlock at specific levels. Once that level is achieved, the corresponding card(s) will become available.
+        ☐ Duel Cards Leveling
+            Each duel card will have 5 levels with each increasing the effectiveness of the card. The cards themselves do not track experience. At specfic monster levels cards will be automatically upgraded. 
+        ☐ Duel Loadouts
+            Each monster will have a large set of duel cards that can be used. However, there is a limit of 25 cards so the MC will have to chose what cards are included in the loadout. This should only be changeable from the Overworld.
+
+        
+
+        
